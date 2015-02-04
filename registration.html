@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+    <link href="Content/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-md-12 col-md-offset-5" style="padding-left: 3%;">
+            <div style="margin-bottom: 10px;">
+                <a href="tictactoe.html">TicTacToe</a>
+                <a href="faq.html">FAQ</a>
+                <a href="registration.html">Registration Form</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-offset-4" style="padding-left: 3%;">
+            <form id="registrationform">
+                <div class="form-group">
+                    <label>First Name: <span>*</span>
+                    </label>
+                    <input type="text" name="fname" />
+                </div>
+                <div class="form-group">
+                    <label>Last Name: <span>*</span>
+                    </label>
+                    <input type="text" name="lname" />
+                </div>
+                <div class="form-group">
+                    <label>Gender: 
+                    </label>
+                    <br>
+                    <input class="radioBtn" type="radio" name="sex" value="male">Male
+                    <input class="radioBtn" type="radio" name="sex" value="female">Female
+                </div>
+                <div class="form-group">
+                    <label>Email: <span>*</span>
+                    </label>
+                    <input type="email" name="email" />
+                </div>
+                <div class="form-group">
+                    <label>Contact No: <span>*</span>
+                    </label>
+                    <input type="text" name="phone" />
+                </div>
+                <input style="height: 25px;" type="submit" class="submit" value="Register" />
+            </form>
+
+            <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+            <script src="http://jqueryvalidation.org/files/dist/jquery.validate.min.js"></script>
+            <script src="http://jqueryvalidation.org/files/dist/additional-methods.min.js"></script>
+            <script src="Script/registrationform.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>

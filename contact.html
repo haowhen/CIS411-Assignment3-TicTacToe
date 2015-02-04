@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Us</title>
+    <link href="Content/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-md-12 col-md-offset-5" style="padding-left: 3%;">
+            <div style="margin-bottom: 10px;">
+                <a href="tictactoe.html">TicTacToe</a>
+                <a href="faq.html">FAQ</a>
+                <a href="registration.html">Registration Form</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-offset-4" style="padding-left: 3%;">
+            <form id="contactform">
+                <div class="form-group">
+                    <label>Name: <span>*</span>
+                    </label>
+                    <input type="text" name="name" placeholder="Name" />
+                </div>
+                <div class="form-group">
+                    <label>Email: <span>*</span>
+                    </label>
+                    <input type="email" name="email" placeholder="Email" />
+                </div>
+                <div class="form-group">
+                    <label>Contact No: <span>*</span>
+                    </label>
+                    <input type="text" name="phone" placeholder="10 digit Mobile no." />
+                </div>
+                <div class="form-group">
+                    <label>Message:</label>
+                    <textarea id="message" placeholder="Message......."></textarea>
+                </div>
+                <input style="height: 25px;" type="submit" class="submit" value="Send Message" />
+            </form>
+
+            <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+            <script src="http://jqueryvalidation.org/files/dist/jquery.validate.min.js"></script>
+            <script src="http://jqueryvalidation.org/files/dist/additional-methods.min.js"></script>
+            <script src="Script/contactform.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>

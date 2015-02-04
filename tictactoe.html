@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TicTacToe</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <link href="Content/style.css" rel="stylesheet">
+    <script src="Script/tictactoe.js"></script>    
+</head>
+
+<body>
+    
+     <div class="row">
+        <div class="col-md-12 col-md-offset-5" style="padding-left: 3%;">
+            <div style="margin-bottom: 10px;">
+                <a href="tictactoe.html">TicTacToe</a>
+                <a href="faq.html">FAQ</a>
+                <a href="registration.html">Registration Form</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </div>
+    </div>
+     
+    <div class="container">
+        <div class="row col-md-offset-1" style="padding-left: 40px;" id="currentPlayer">
+            Current Player: X
+        </div>
+        <br>
+        <div class="row" id="board">
+            <div class="col-md-offset-5">
+                <div class="row">
+                    <div class="col-md-2 square">
+                        <p class="clearSquare" id="1"></p>
+                    </div>
+                    <div class="col-md-2 square">
+                        <p class="clearSquare" id="2"></p>
+                    </div>
+                    <div class="col-md-2 square" style="border-right: 0px;">
+                        <p class="clearSquare" id="3"></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2 square">
+                        <p class="clearSquare" id="4"></p>
+                    </div>
+                    <div class="col-md-2 square">
+                        <p class="clearSquare" id="5"></p>
+                    </div>
+                    <div class="col-md-2 square" style="border-right: 0px;">
+                        <p class="clearSquare" id ="6"></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2 square" style="border-bottom: 0px;">
+                        <p class="clearSquare" id = "7"></p>
+                    </div>
+                    <div class="col-md-2 square" style="border-bottom: 0px;">
+                        <p class="clearSquare" id = "8"></p>
+                    </div>
+                    <div class="col-md-2 square" style="border-right: 0px; border-bottom: 0px;">
+                        <p class="clearSquare" id = "9"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="col-md-offset-1" style="padding-left: 40px;">
+            <button id="newGame">New Game!</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
